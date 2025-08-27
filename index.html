@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency</title>
 
-    <!-- daisy link -->
+    <!-- daisyUi link -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <!-- tailwind cdn -->
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -14,10 +14,60 @@
 </head>
 <body>
     <header>
+        <nav class="flex justify-between items-center px-8 bg-white py-4 h-[100px]">
+            <div class="flex items-center gap-[10px]">
+                <div class="w-[50px] h-[50px]">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <div>
+                    <h1 class="font-bold">Emergency<br>
+                    Service</h1>
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-3">
+                <div class="flex items-center w-[123px] h-[52px] justify-center gap-2 bg-[#41ff6b1a] rounded-2xl">
+                    <p class="font-bold">0</p>
+                    <img src="./assets/heart.png" class="w-[30px] h-[30px]" alt="">
+                </div>
+                <div class="flex items-center w-[106px] h-[52px] justify-center gap-2 bg-[#41ff6b1a] rounded-2xl">
+                    <p class="font-bold">100</p>
+                    <img src="./assets/coin.png" class="w-[24px] h-[24px]" alt="">
+                </div>
+                <div class="flex items-center w-[123px] h-[52px] justify-center gap-2 bg-[#00a63e] rounded-2xl">
+                    <p class="font-bold text-white">0</p>
+                    <p class="font-bold text-white">Copy</p>
+                </div>
+            </div>
+        </nav>
+        <div class="banner flex flex-col items-center text-center h-[239px] bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223]">
+            <img src="./assets/logo-dark.png" class="w-[92px] h-[92px] mb-[11px] mt-[21px]" alt="">
+            <h1 class="text-white mb-[11px] font-bold text-[40px]">Emergency Service Directory</h1>
+            <p class="text-white mb-[21px] font-semibold text-xl">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
 
+        </div>
     </header>
     <main>
-        <h1>this is my fifth assignment</h1>
+        <section  class="max-w-[1800px]">
+            <div class="services">
+                <div class="service w-[436.67px] h-[360px]">
+                   <div class="flex justify-between items-center mx-"> 
+                    <div class="bg-[#ffe3e2] w-[60px] h-[60px] flex justify-center items-center rounded-xl">
+                        <img src="./assets/emergency.png" class="w-[32px] h-[32px]" alt="">
+                    </div>
+                    <button><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <p>National Emergency</p>
+                <h2 class="font-bold text-xl">999</h2>
+                
+                 <p class="text-[18px] bg-[#5c5c5c] px-[16px] py-[6px] inline-block rounded-xl">All</p>
+                
+                <div>
+                    <button><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button><i class="fa-solid fa-phone"></i>Call</button>
+                </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
