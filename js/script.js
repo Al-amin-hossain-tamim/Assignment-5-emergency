@@ -61,6 +61,22 @@ function callHistoryAndCoin(id1,id2){
 
 }
 
+
+// copy button reuseable function -----------
+
+function copyReuseabe (id){
+     const getCopyStorage = parseInt(document.getElementById('copy-number').innerText);
+    const getNumber = document.getElementById(id).innerText;
+    alert("number has copied"+ ' ' + getNumber);
+
+    const newCopyNumber = getCopyStorage + 1;
+    document.getElementById('copy-number').innerText = newCopyNumber;
+
+    navigator.clipboard.writeText(getNumber);
+}
+
+
+
 // call button event handler
 
 document
@@ -77,6 +93,9 @@ document
 
   document.getElementById('call-btn-fireService').addEventListener('click',function(){
     callHistoryAndCoin('fire-service','fire-service-number');
+  })
+  document.getElementById('call-btn-ambulance').addEventListener('click',function(){
+    callHistoryAndCoin('ambulance-service','ambulance-service-number');
   })
 
 
@@ -108,6 +127,46 @@ document
 
 document.getElementById('clear-btn').addEventListener('click',function() {
     document.getElementById('call-history').innerText = ' ';
+})
+
+// copy button event handler-----------------
+
+document.getElementById('copy-btn-emergency').addEventListener('click',function(){
+    copyReuseabe('emergency-number');
+    
+
+})
+document.getElementById('copy-btn-police').addEventListener('click',function(){
+   copyReuseabe('police-helpline-number');
+
+})
+document.getElementById('copy-btn-fire').addEventListener('click',function(){
+   copyReuseabe('fire-service-number');
+
+})
+document.getElementById('copy-btn-ambulance').addEventListener('click',function(){
+   copyReuseabe('ambulance-service-number');
+
+})
+document.getElementById('copy-btn-women').addEventListener('click',function(){
+   copyReuseabe('women-child-number');
+
+})
+document.getElementById('copy-btn-anti').addEventListener('click',function(){
+   copyReuseabe('Anti-Corruption-number');
+
+})
+document.getElementById('copy-btn-electricity').addEventListener('click',function(){
+   copyReuseabe('Electricity-number');
+
+})
+document.getElementById('copy-btn-brac').addEventListener('click',function(){
+   copyReuseabe('brac-helpline-number');
+
+})
+document.getElementById('copy-btn-railway').addEventListener('click',function(){
+   copyReuseabe('Railway-number');
+
 })
 
 
