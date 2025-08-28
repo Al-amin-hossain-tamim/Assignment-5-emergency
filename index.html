@@ -30,11 +30,11 @@
             </div>
             <div class="flex justify-center items-center gap-3">
                 <div class="flex items-center w-[123px] h-[52px] justify-center gap-2 bg-[#41ff6b1a] rounded-2xl">
-                    <p class="font-bold">0</p>
+                    <p id="heart-storage" class=" font-bold">0</p>
                     <img src="./assets/heart.png" class="w-[30px] h-[30px]" alt="">
                 </div>
                 <div class="flex items-center w-[106px] h-[52px] justify-center gap-2 bg-[#41ff6b1a] rounded-2xl">
-                    <p class="font-bold">100</p>
+                    <p id="coin-storage" class="font-bold">100</p>
                     <img src="./assets/coin.png" class="w-[24px] h-[24px]" alt="">
                 </div>
                 <div class="flex items-center w-[123px] h-[52px] justify-center gap-2 bg-[#00a63e] rounded-2xl">
@@ -53,24 +53,24 @@
         </div>
     </header>
     <main class="bg-[#f5fff6]">
-        <section class=" md:flex max-w-[1800px] mx-auto md:py-[55px] md:px-[60px] gap-4 ">
+        <section class=" md:flex max-w-[1800px] mx-auto md:py-[60px] md:px-[0px] gap-4 ">
             <div class="services  grid md:grid-cols-3 gap-4">
                 <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
                         <img src="./assets/emergency.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">National Emergency Number</h1>
-                            <p>National Emergency</p>
+                            <h1 id="National-emergency" class="text-[24px] font-bold">National Emergency Number</h1>
+                            <p class="calling-headline">National Emergency</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">999</p>
+                            <p id="emergency-number" class="call-number font-bold text-2xl">999</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">All</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-emergency" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
@@ -78,19 +78,19 @@
                <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
                         <img src="./assets/police.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Police Helpline Number</h1>
-                            <p>Police</p>
+                            <h1 id="police-helpline" class="text-[24px] font-bold">Police Helpline Number</h1>
+                            <p class="calling-headline">Police</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">999</p>
+                            <p id="police-helpline-number" class="call-number font-bold text-2xl">999</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">Police</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-police" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
@@ -98,19 +98,19 @@
                 <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
                         <img src="./assets/fire-service.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Fire Service Number</h1>
-                            <p>Fire Service</p>
+                            <h1 id="fire-service" class="text-[24px] font-bold">Fire Service Number</h1>
+                            <p class="calling-headline">Fire Service</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">999</p>
+                            <p id="fire-service-number" class="call-number font-bold text-2xl">999</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">Fire</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-fireService" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
@@ -118,19 +118,19 @@
                <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
                         <img src="./assets/ambulance.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Ambulance Servicer</h1>
-                            <p>Ambulance</p>
+                            <h1 id="ambulance-service" class="text-[24px] font-bold">Ambulance Service</h1>
+                            <p class="calling-headline">Ambulance</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">1994-999999</p>
+                            <p id="ambulance-service-number" class=" call-number font-bold text-2xl">1994-999999</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">Health</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-ambulance" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
@@ -138,19 +138,19 @@
                 <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
                         <img src="./assets/emergency.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Women & Child Helpline</h1>
-                            <p>Women & Child Helpline</p>
+                            <h1 id="women-child" class="text-[24px] font-bold">Women & Child Helpline</h1>
+                            <p class="calling-headline">Women & Child Helpline</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">109</p>
+                            <p id="women-child-number" class="call-number font-bold text-2xl">109</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">Help</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-women" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
@@ -158,19 +158,19 @@
                 <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
                         <img src="./assets/emergency.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Anti-Corruption Helpliner</h1>
-                            <p>Anti-Corruption</p>
+                            <h1 id="Anti-Corruption" class="text-[24px] font-bold">Anti-Corruption Helpline</h1>
+                            <p class="calling-headline">Anti-Corruption</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">106</p>
+                            <p id="Anti-Corruption-number" class="call-number font-bold text-2xl">106</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">Govt</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-anti" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
@@ -178,80 +178,83 @@
                <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
                         <img src="./assets/emergency.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Electricity Helpline</h1>
-                            <p>Electricity Outage</p>
+                            <h1 id="Electricity" class="text-[24px] font-bold">Electricity Helpline</h1>
+                            <p class="calling-headline">Electricity Outage</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">16216</p>
+                            <p id="Electricity-number" class="call-number font-bold text-2xl">16216</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">Electricity</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-electricity" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
                 </div>
                 <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
-                        <img src="./assets/emergency.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <img src="./assets/brac.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Brac Helpline</h1>
-                            <p>Brac</p>
+                            <h1 id="brac-helpline" class="text-[24px] font-bold">Brac Helpline</h1>
+                            <p class="calling-headline">Brac</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">16445</p>
+                            <p id="brac-helpline-number" class="call-number font-bold text-2xl">16445</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">NGO</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-brac" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                              
                         </div>
                     </div>
                 </div>
                <div class="service bg-[#ffffff] max-w-[436px] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
                     <div class="flex justify-between">
-                        <img src="./assets/emergency.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
-                        <button class=""><i class="fa-regular fa-heart "></i></button>
+                        <img src="./assets/Bangladesh-Railway.png" class="bg-[#ffe3e2] p-[14px] rounded-xl w-[60px] " alt="">
+                        <button class="heart-btn"><i class="fa-regular fa-heart text-2xl"></i></button>
                     </div>
                     <div>
                         <div class="mt-[16px] ">
-                            <h1 class="text-[24px] font-bold">Bangladesh Railway Helpline </h1>
-                            <p>Bangladesh Railway</p>
+                            <h1 id="Railway" class="text-[24px] font-bold">Bangladesh Railway Helpline </h1>
+                            <p class="calling-headline">Bangladesh Railway</p>
                         </div>
                         <div class="my-[24px]">
-                            <p class="font-bold text-2xl">163</p>
+                            <p id="Railway-number" class="call-number font-bold text-2xl">163</p>
                             <p class="inline-block py-[6px] px-[13px] bg-[#f2f2f2] rounded-2xl">Travel</p>
                         </div>
                         <div class="">
-                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button class="btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
-                             
+                            <button class="btn w-[170px] text-[#5c5c5c] rounded-xl"><i class="fa-regular fa-copy"></i>Copy</button> <button id="call-btn-railway" class="call btn w-[170px] bg-[#00a63e] text-white rounded-xl"><i class="fa-solid fa-phone"></i>Call</button>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <div class="flex mt-[30px] md:mt-[0px]">
-                 <div class="call-history md:w-[400px] w-[436px] bg-[#ffffff] shadow-md shadow-[#00000026] p-[30px] rounded-[12px]">
+                 <div class=" md:w-[400px] w-[436px] bg-[#ffffff] shadow-md shadow-[#00000026] p-[30px] rounded-[12px] mt-[30px] md:mt-[0px]">
                    
                     <div class="flex justify-between  h-[52px] items-center">
                       <p class="text-xl font-semibold"><i class="fa-regular fa-clock"></i> Call history</p> 
                         
-                       <button class="btn bg-[#00a63e] rounded-[50px] px-[30px] py-[14px] text-white">Clear</button>
+                       <button id="clear-btn" class="btn bg-[#00a63e] rounded-[50px] px-[30px] py-[14px] text-white">Clear</button>
                     </div>
+                    <div id="call-history" class="flex flex-col-reverse">
+
+                    </div>
+
                 </div>
-            </div>
         </section>
     </main>
     <footer>
 
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
