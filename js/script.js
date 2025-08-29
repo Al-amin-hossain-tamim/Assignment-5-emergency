@@ -48,7 +48,7 @@ function callHistoryAndCoin(id1,id2){
    const div = document.createElement('div');
    div.innerHTML = `
    <div id="history" class="flex justify-between bg-[#fafafa] my-2 md:p-3 p-2">
-                        <div class = "max-w-[200px]">
+                        <div class = "md:max-w-[200px] max-w-[190px]">
                             <h1 class="md:text-xl font-semibold">${callHistory[0].service}</h1>
                             <h2>${callHistory[0].number}</h2>
                         </div>
